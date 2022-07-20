@@ -12,7 +12,7 @@ let socket;
 
 const Chat = () => {  // location is a prop from react-router
   const location = useLocation();
-  const ENDPOINT = 'localhost:5000';
+  const ENDPOINT = 'https://react-socketiochat-application.herokuapp.com/';
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
   const [users, setUsers] = useState('');
